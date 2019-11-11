@@ -1,4 +1,3 @@
-    
   .navbar .menu img{
     position: absolute;
     z-index: 0;
@@ -7,6 +6,123 @@
       height:90px;
       padding-top:0px;
       margin-right:10px;
+  }
+
+/* Navbar Hover*/
+
+  
+  .nav-link {
+    display: inline-block;
+    color: #fff;
+  /*  font-size: 11px;
+    letter-spacing: 2px; */
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding: 15px;
+  }
+  
+  .nav-link:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: red;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  .nav-link:hover {
+    color: red;
+  }
+  
+  .nav-link:hover:after {
+    width: 100%;
+  }
+
+
+/*Horizontal Submenu*/
+
+  .subnav {
+    float: center;
+    overflow: hidden;
+    font-size:18px !important;
+  }
+  
+  .subnav .subnavbtn {
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .subnavbtn:hover{
+    color:red;
+    
+  }
+ .subnav:hover .subnavbtn {
+    /*background-color: rgb(250, 250, 250);
+    border-bottom: 2px solid red; */
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 50px;
+    background-color: rgb(49, 47, 58);
+    padding-top:12px;
+    width: 40%;
+    height:60px;
+    z-index: 1;
+    border-top: 2px solid black;
+  }
+  
+  .subnav-content a {
+    float: center;
+    color: white;
+    text-decoration: none;
+    margin-right:20px;
+    padding: 5px;
+  }
+  
+  .subnav-content a:hover {
+   /*background-color: #eee;*/
+    color:red;
+
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+  .info {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 200px;
+    font-size:18px;
+    margin:12px;
+  }
+  
+  .info:hover {
+    background: rgb(160, 160, 161);
+    color: rgb(0, 0, 0);
   }
 
   /*Landing page */
@@ -245,61 +361,50 @@ margin-right:65px;
 }
 /* Title */
 .navbar-default .navbar-brand {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 /* Link */
 .navbar-default .navbar-nav > li > a {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: rgba(252, 2, 2, 0.74);
+  color: red;
+  font-weight:900px;
+
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: rgba(255, 20, 50, 0.829);
+  color: red;
   background-color: #E7E7E7;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #555;
+  color:red;
   background-color: #D5D5D5;
 }
-/* Caret 
-.navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #777;
-  border-bottom-color: #777;
+
+.slideInDown {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
 }
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
-.navbar-default .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #333;
-  border-bottom-color: #333;
+
+.slideInUp {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
 }
-.navbar-default .navbar-nav > .open > a .caret,
-.navbar-default .navbar-nav > .open > a:hover .caret,
-.navbar-default .navbar-nav > .open > a:focus .caret {
-  border-top-color: #555;
-  border-bottom-color: #555; */
+
+.slideInLeft {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
 }
-/* Mobile version */
-.navbar-default .navbar-toggle {
-  border-color: rgb(255, 255, 255);
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: rgb(255, 255, 255);
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: rgb(255, 255, 255);
-}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #777;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
-  }
+.slideInRight{
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
 }

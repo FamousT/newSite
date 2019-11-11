@@ -7,6 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href="css/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
@@ -31,38 +32,42 @@
 
          
       <!-- Full Page Intro -->
-      <div class="view" style="background-image: url('images/front1.jpg'); height:700px;">
+      <div class="view" style="background-image: url('images/front1.jpg'); background-color: rgba(27, 27, 27, 0.5); height:700px;">
         <nav class="navbar navbar-expand-lg navbar-default">
           <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             <b>Cerebralhub</b>
 
           </button>
-        
+
+        <div class="container">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto nav-fill w-100">
-              <li class="nav-item"><a href="index.html" class="nav-link hvr-underline-from-left">About</a></li>
-
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle hvr-underline-from-center" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true" href="services.html">Services</a>
-                  <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="sample.html"> What We've Done</a>
-                    <a class="dropdown-item" href="media.html">How We Do It</a>
-    
+              <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+       
+              <li class="nav-item">
+                  
+                  <div class="subnav">
+                  <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content ">
+                    <a href="#link1">Research</a>
+                    <a href="#link4">Content Creation</a>
+                    <a href="#link2">Policy Making</a>
+                    <a href="#link3">Media</a>
                   </div>
-                </li>           
-           
+                </div>
               </li>
               <li class="nav-item"><a href="index.html">
                   <div class="menu">
                       <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
                     </div>     
                   </li>               
-                <li class="nav-item"><a href="index.html" class="nav-link hvr-underline-from-left">Works</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Works</a></li>
                   <li class="nav-item cta"><a href="contact.html" class="nav-link hvr-grow"><span>Contact</span></a></li>
             </ul>
 
           </div>
+        </div>
         </nav>
   
   <!-- END nav -->  
@@ -76,15 +81,15 @@
             <!--Grid row-->
             <div class="row"></div>
               <!--Grid column-->
-              <div class="col-md-12 white-text text-center"><br><br><br>
-                <h1 class="text-uppercase font-weight-bold"><strong>Everything Begins With an Idea</strong></h1>
+              <div class="col-md-12 white-text text-center"><br><br>
+                <h1 class="text-uppercase font-weight-bold animated slideInDown"><strong>Everything Begins With an Idea</strong></h1>
                 <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s"><br>
-                <h5 class="white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Ideas Won't Keep. Something Must Be Done About Them</strong></h5><br>
+                <h5 class="white-text wow animated slideInUp" data-wow-delay="0.4s"><strong>Ideas Won't Keep. Something Must Be Done About Them</strong></h5><br>
                 <div class="btn-group">
-                  <button type="button" class="btn btn-primary">What We Do</button>
+                  <button class="btn info animated slideInLeft">What We Do</button>
                 </div>
                 <div class="btn-group">
-                  <button type="button" class="btn btn-outline-dark">How we do it</button>
+                  <button class="btn info animated slideInRight">How We Do</button>
 
                 </div>
               </div>
@@ -217,7 +222,7 @@
       </div>
       </div>
 
-
+      <script src="js/index.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
