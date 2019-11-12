@@ -313,10 +313,14 @@ s
     font-family: Raleway;
     text-align: center;
     font-size:30px;
-    padding-bottom:0px;
+    padding-top:30px;
     font-weight:700px;
     color:rgb(151, 7, 7);
 
+  }
+
+  #section2 .client .container{
+    padding-top:20px;
   }
 
   .footer .row img{
