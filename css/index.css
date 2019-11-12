@@ -399,23 +399,43 @@ s
   font-size: 40px;
   text-align: center;
   font-weight: 500px;
+  color:rgb(151, 7, 7);
+  font-family: Raleway;
+
 }
 
 .missionStatement p{
   font-size:20px;
   text-align: center;
+  font-family: Raleway;
+
 
 }
 
 .container .aboutPix img{
-  width:600px;
-  height:400px;
+  width:100%;
+  height:370px;
 }
 
-.container .otherStatement{
+.container .otherStatement p{
   font-size:20px;
+  font-family: Raleway;
+  padding-top:60px;
+
 }
 
+#about{
+  padding-top:30px;
+}
+
+.missionStatement2{
+font-size:20px;
+text-align: center;
+font-family: Raleway;
+padding-top:50px;
+padding-bottom:60px;
+
+}
 .pathway{
   margin-top:50px;
   padding-top:30px;
@@ -520,14 +540,12 @@ border-radius: 5px;
   animation-iteration-count: 1;
 }
 
-
-.meetOurTeam {
-  background:rgb(84, 80, 95);
-  text-align: center;
+.letsTalk{
+ text-align: center;
   padding:10px;
 }
-.ourTeam {
-  border-color: rgb(255, 255, 255);
+.talk {
+  background: rgb(57, 53, 71);
   color: rgb(255, 255, 255);
   width: 200px;
   font-size:18px;
@@ -535,8 +553,9 @@ border-radius: 5px;
   height:50px;
 }
 
-.ourTeam:hover {
-  background: rgb(205, 205, 216);
+.talk:hover {
+  background: rgb(255, 255, 255);
+  border:2px solid rgb(57, 53, 71);
   color: rgb(0, 0, 0);
 }
 
@@ -567,36 +586,44 @@ border-radius: 5px;
 }
 
 .researchButton {
-  border-color: rgb(39, 3, 121);
   border-radius:30px;
   width: 200px;
   font-size:18px;
   margin:20px;
   height:50px;
+  background: #768d9c;
+  color: white;
 
 }
 
 .researchButton:hover {
-  background: #8b8ba7;
+  background: #ffffff;
   color: rgb(0, 0, 0);
+  border: 2px solid #768d9c;
+
 }
 
 
 
 
 .policyMaking {
-  border-color: brown;
   border-radius:30px;
+  border: 2px solid #99835f;
   width: 200px;
   font-size:18px;
   margin:20px;
   height:50px;
+  background: #99835f;
+    color: rgb(255, 255, 255);
+
+
 
 }
 
 .policyMaking:hover {
-  background: rgb(112, 72, 72);
-  color: rgb(255, 255, 255);
+  background: #ffffff;
+  border: 2px solid #99835f;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -606,14 +633,18 @@ border-radius: 5px;
   font-weight:600px;
 }
 
-#research img, #policy img, #media img{
+#research img, #media img{
   width:650px;
-  height:500px;
+  height:400px;
 }
 
+#policy img{
+  width:650px;
+  height:480px;
+}
 #policy .content h4{
     color:brown;
-    padding-top:50px;
+    padding-top:40px;
     font-size:30px;
 }
 
@@ -633,7 +664,7 @@ border-radius: 5px;
 
 #media .content h4{
   color:rgb(0, 153, 59);
-  padding-top:50px;
+  padding-top:20px;
   font-size:30px;
 
 }
@@ -645,17 +676,19 @@ padding:10px;
 
 
 .mediaButton {
-  border-color: green;
   border-radius:30px;
   width: 200px;
   font-size:18px;
   margin:20px;
   height:50px;
+  background: #619c6c;
+
 
 }
 
 .mediaButton:hover {
-  background: #8ba790;
+  border:2px solid #95c49e;
+  background: #ffffff;
   color: rgb(0, 0, 0);
 }
 
