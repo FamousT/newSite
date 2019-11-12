@@ -132,6 +132,7 @@
   }
   
   .info:hover {
+    border: 2px solid #fbb03b;
     background: #fbb03b;
     color: rgb(0, 0, 0);
   }
