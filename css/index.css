@@ -3,15 +3,13 @@
 
  .navbar .menu img{
     position: absolute;
-    width:125px;
-    height:90px;
-    margin-right:10px;
+    width:100px;
     border-radius:50%; 
-    box-shadow: 0 26px 30px rgba(0,0,0,.09);
+    box-shadow: 0 26px 26px rgba(0,0,0,.09);
     border-color: rgba(0, 0, 0, 0.05);
   }
   .navbar-brand{
-    margin-right:10rem !important;
+    margin-right:08rem !important;
     padding-bottom: 25px !important;
   }
 
@@ -84,7 +82,7 @@
     display: none;
     position: absolute;
     left: 50px;
-    background-color: rgb(49, 47, 58);
+    background-color: rgb(255, 255, 255);
     padding-top:12px;
     width: 40%;
     height:60px;
@@ -95,7 +93,7 @@
   
   .subnav-content a {
     float: center;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-right:20px;
     padding: 5px;
@@ -280,7 +278,7 @@ s
   .whatwedo{
     padding:20px;
     padding-top:70px;
-    padding-bottom:120px;
+    padding-bottom:100px;
     background:rgb(255, 255, 255);
     font-family: Raleway;
 
@@ -293,44 +291,45 @@ s
 
   .client .container img{
       width: 100px;
-      height: 100px;
+      height: 120px;
   }
 
   .client {
-    padding-top:10px;
+    padding-top:0;
     padding-bottom:30px;
     justify-content: center;
     text-align: center;
     font-family: Raleway;
-
-  }
-
-  .client .head3{
-    font-family: Raleway;
-    text-align: center;
     font-size:30px;
-    padding-top:30px;
-    font-weight:700px;
-    color:rgb(151, 7, 7);
+    color: rgb(151, 7, 7);
 
   }
 
   #section2 .client .container{
-    padding-top:20px;
+    padding-top:30px;
+    padding-bottom:30px;
   }
 
   .footer .row img{
-      width:100px;
-      height:100px;
+      width:80px;
+      height:80px;
+      margin-bottom: 20px;;
     
   }
 
   .footer{
-      background-color: rgb(69, 72, 82);
+    background:rgb(59, 59, 59);
       margin-top:0px;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      color:white;
+      padding-top: 60px;
+      color:rgb(255, 255, 255);
+      font-size:15px;
+  }
+  .footer2{
+    background:rgb(59, 59, 59);
+    padding-bottom:40px;
+    color:white;
+    font-size:15px;
+
   }
 
   .fa {
@@ -423,6 +422,7 @@ s
 #about{
   padding-top:30px;
 }
+
 
 .missionStatement2{
 font-size:20px;
@@ -630,12 +630,12 @@ border-radius: 5px;
 }
 
 #research img, #media img{
-  width:650px;
+  width:100%;
   height:400px;
 }
 
 #policy img{
-  width:650px;
+  width:100%;
   height:480px;
 }
 #policy .content h4{
@@ -725,3 +725,32 @@ padding:10px;
 #section5 .container{
   padding-bottom:50px;
 }
+
+
+#animation .head4{
+  text-align: center;
+}
+
+#animation{
+  margin-top:0;
+  margin-bottom: 20px;
+}
+
+#illustration{
+  text-align:center;
+  background:rgb(160, 157, 157);
+}
+
+.illustration .head6{
+  text-align: center;
+  margin-top:50px;
+  font-size:30px;
+  font-family: Raleway;
+  color: rgb(151, 7, 7)
+}
+
+.illustration p{
+  text-align:center;
+}
+
+
