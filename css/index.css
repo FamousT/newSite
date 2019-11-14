@@ -152,6 +152,7 @@
 .navbar{
   padding-bottom:30px;
   margin-bottom:0px;
+  padding-top:0px;
 }
   .info {
     border: 2px solid #ffffff;
@@ -700,7 +701,7 @@ border-radius: 5px;
 
 #media .content h4{
   color:rgb(0, 153, 59);
-  padding-top:30px;
+  padding-top:5px;
   font-size:35px;
 
 }
@@ -715,7 +716,7 @@ padding:10px;
   border-radius:30px;
   width: 200px;
   font-size:18px;
-  margin:20px;
+  margin:10px;
   height:50px;
   background: #619c6c;
 
