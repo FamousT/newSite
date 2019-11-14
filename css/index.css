@@ -1,6 +1,8 @@
  
  @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,700i,900");
 
+
+ /*
  .navbar .menu img{
     position: absolute;
     width:100px;
@@ -12,15 +14,16 @@
     margin-right:08rem !important;
     padding-bottom: 25px !important;
   }
-
+*/
 /* Navbar Hover*/
-
+/*
   
   .nav-link {
     display: inline-block;
     color: #fff;
   /*  font-size: 11px;
     letter-spacing: 2px; */
+    /*
     position: relative;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -53,6 +56,8 @@
 
 /*Horizontal Submenu*/
 
+
+/*
   .subnav {
     float: center;
     overflow: hidden;
@@ -75,8 +80,10 @@
   }
  .subnav:hover .subnavbtn {
     /*background-color: rgb(250, 250, 250);
-    border-bottom: 2px solid red; */
-  }
+    border-bottom: 2px solid red; 
+  }*/
+
+  /*
   
   .subnav-content {
     display: none;
@@ -101,6 +108,8 @@
   
   .subnav-content a:hover {
    /*background-color: #eee;*/
+
+   /*
     color:red;
 
   }
@@ -111,13 +120,39 @@
 
 
 
+*/
+
+/*
+.jumbotron {
+  position:relative;
+  overflow:hidden;
+  text-align:center;
+}
+
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+  padding:2rem;
+  border-radius:3px;
+}
+
+.jumbotron-background {
+  object-fit:cover;
+  font-family: 'object-fit: cover;';
+  position:absolute;
+  top:0;
+  z-index:1;
+  width:100%;
+  height:100%;
+  opacity:0.5;
+}*/
 
 
 
-
-
-
-
+.navbar{
+  padding-bottom:20px;
+  margin-bottom:15px;
+}
   .info {
     border: 2px solid #ffffff;
     color: #ffffff;
@@ -165,20 +200,21 @@ h5 {
     padding-top:80px;
     padding-bottom:80px;
     font-family: Raleway;
-s
 }
 
 .mission .head{
-    font-size: 20px;
-    font-weight:900px;
-    font-family: Raleway;
-    color:rgb(151, 7, 7);
+  font-size: 20px;
+  font-weight:900px;
+  font-family: Raleway;
+  color:rgb(151, 7, 7);
 }
 
 .mission p{
     font-size: 60px;
-    font-weight:600px;
+    font-weight:900px;
     font-family: Raleway;
+    color:black;
+    word-spacing: 5px;
 
 }
 
@@ -215,8 +251,6 @@ s
 
   .whatwedo .container .circular img{
     border-radius: 50%;
-    width:280px;
-    height:280px;
     display: block;
     width: 100%;
     height: 350px;
@@ -286,7 +320,7 @@ s
 
   .hr-middle {
     border-top: 2px solid rgb(151, 7, 7);
-    width: 400px;
+    width: 150px;
   }
 
   .client .container img{
@@ -311,7 +345,7 @@ s
   }
 
   .footer .row img{
-      width:80px;
+      width:90px;
       height:80px;
       margin-bottom: 20px;;
     
@@ -447,7 +481,7 @@ padding-bottom:60px;
   margin-right: auto;
 }
 
-
+/*
 .custom-toggler.navbar-toggler {
 }
 
@@ -458,6 +492,8 @@ margin-right:65px;
 
 
 /* navbar */
+
+/*
 .navbar-default {
   background-color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
@@ -471,6 +507,7 @@ margin-right:65px;
   color: black;
 }
 /* Link */
+/*
 .navbar-default .navbar-nav > li > a {
   color: black;
 }
@@ -511,6 +548,7 @@ background:
 -ms-border-radius: 5px;
 border-radius: 5px;
 }
+*/
 
 
 .slideInDown {
@@ -539,6 +577,8 @@ border-radius: 5px;
 .letsTalk{
  text-align: center;
   padding:10px;
+  padding-bottom:60px;
+
 }
 .talk {
   background: rgb(57, 53, 71);
@@ -624,24 +664,23 @@ border-radius: 5px;
 
 
 #research .content h3{
-  font-size:30px;
+  font-size:35px;
   color: #363669;
-  font-weight:600px;
+  font-weight:800px;
+  padding-top:20px;
 }
 
 #research img, #media img{
   width:100%;
-  height:400px;
 }
 
 #policy img{
   width:100%;
-  height:480px;
 }
 #policy .content h4{
     color:brown;
-    padding-top:40px;
-    font-size:30px;
+    padding-top:60px;
+    font-size:35px;
 }
 
 #policy{
@@ -660,8 +699,8 @@ border-radius: 5px;
 
 #media .content h4{
   color:rgb(0, 153, 59);
-  padding-top:20px;
-  font-size:30px;
+  padding-top:30px;
+  font-size:35px;
 
 }
 
@@ -700,17 +739,26 @@ padding:10px;
 }
 
 
-
+ .howWeDo{
+   padding-bottom: 30px;
+ }
 .howWeDo .head2{
-  padding-top:10px;
+  padding-top:80px;
   text-align: center;
   font-size:30px;
   padding-bottom:4px;
   font-weight:700px;
   color:rgb(151, 7, 7);
   font-family: Raleway;
+}
 
 
+.howWeDo .howWeDoPath img{
+  width:100%;
+}
+
+.howWeDo p{
+ padding-top: 60px;
 }
 
 .howWeDo .text{
