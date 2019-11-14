@@ -253,7 +253,6 @@ h5 {
     border-radius: 50%;
     display: block;
     width: 100%;
-    height: 350px;
   }
   .overlay {
     position: absolute;
@@ -312,7 +311,7 @@ h5 {
   .whatwedo{
     padding:20px;
     padding-top:70px;
-    padding-bottom:100px;
+    padding-bottom:40px;
     background:rgb(255, 255, 255);
     font-family: Raleway;
 
@@ -320,7 +319,7 @@ h5 {
 
   .hr-middle {
     border-top: 2px solid rgb(151, 7, 7);
-    width: 150px;
+    width: 300px;
   }
 
   .client .container img{
@@ -449,12 +448,16 @@ h5 {
 .container .otherStatement p{
   font-size:20px;
   font-family: Raleway;
-  padding-top:60px;
+  padding-top:30px;
 
 }
 
 #about{
   padding-top:30px;
+}
+
+#about img{
+  width:100%
 }
 
 
@@ -618,7 +621,7 @@ border-radius: 5px;
 
 #research{
   padding-top:80px;
-  padding-bottom:80px;
+  padding-bottom:10px;
 }
 
 .researchButton {
@@ -684,6 +687,7 @@ border-radius: 5px;
 }
 
 #policy{
+  padding-top:70px;
   padding-bottom: 40px;
 }
 #policy .content p{
@@ -802,3 +806,119 @@ padding:10px;
 }
 
 
+
+
+#work img{
+  width:100%;
+}
+
+#work{
+  padding-top:90px; 
+  background:rgba(236, 235, 235, 0.795);
+}
+
+.card{
+  border:2px solid rgb(182, 182, 182);
+}
+.card p{
+  font-size:14px;
+}
+
+
+
+
+
+#work2 img{
+  width:100%;
+}
+
+#work2{
+  padding-top:0px; 
+  background:rgba(236, 235, 235, 0.795);
+}
+
+
+.aboutResearchButton {
+  border-radius:30px;
+  width: 300px;
+  font-size:18px;
+  margin:20px;
+  height:60px;
+  background: #2ea4f3;
+  color: white;
+
+}
+
+.aboutResearchButton:hover {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid #2ea4f3;
+
+}
+
+
+
+.aPolicyMaking {
+  border-radius:30px;
+  border: 2px solid #99835f;
+  width: 300px;
+  font-size:18px;
+  margin:20px;
+  height:60px;
+  background: #c2821a;
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+.aPolicyMaking:hover {
+  background: #ffffff;
+  border: 2px solid #c2821a;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.aMediaButton {
+  border-radius:30px;
+  width: 300px;
+  font-size:18px;
+  margin:20px;
+  height:60px;
+  background: #619c6c;
+
+
+}
+
+.aMediaButton:hover {
+  border:2px solid #95c49e;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+#footer ul.social li{
+padding: 3px 0;
+}
+#footer ul.social li a i {
+  margin-right: 5px;
+font-size:25px;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+font-size:30px;
+margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+color:#ffffff;
+}
+#footer ul.social li a:hover{
+color:#eeeeee;
+}
