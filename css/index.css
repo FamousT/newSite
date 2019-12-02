@@ -1,5 +1,4 @@
  
- @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,700i,900");
 
 
  /*
@@ -175,14 +174,13 @@ h1 {
   letter-spacing: 5px;
   font-size:55px;
   /*font-weight:1000px;*/
-  font-family: Raleway;
+  font-family: ;
 }
 
 h5 {
   letter-spacing: 0px;
   font-size:18px;
   font-weight:0px;
-  font-family: Raleway;
 }
 
 .hr-light {
@@ -200,20 +198,17 @@ h5 {
     text-align: center;
     padding-top:80px;
     padding-bottom:80px;
-    font-family: Raleway;
 }
 
 .mission .head{
   font-size: 20px;
   font-weight:900px;
-  font-family: Raleway;
   color:rgb(151, 7, 7);
 }
 
 .mission p{
     font-size: 60px;
     font-weight:900px;
-    font-family: Raleway;
     color:black;
     word-spacing: 5px;
 
@@ -230,7 +225,6 @@ h5 {
 .mission .container .container h6 {
   padding-top:12px;
   font-size:16px;
-  font-family: Raleway;
 
 }
 
@@ -239,7 +233,6 @@ h5 {
     position: relative;
     text-align: center;
     color: white;
-    font-family: Raleway;
 
   }
 
@@ -283,7 +276,6 @@ h5 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: Raleway;
 
   }
 
@@ -296,7 +288,6 @@ h5 {
     padding-bottom:4px;
     font-weight:700px;
     color:rgb(151, 7, 7);
-    font-family: Raleway;
 
 
   }
@@ -304,7 +295,6 @@ h5 {
   .whatwedo .text{
     text-align: center;
     font-size:17px;
-    font-family: Raleway;
     padding-bottom:40px;
 
   }
@@ -314,7 +304,6 @@ h5 {
     padding-top:70px;
     padding-bottom:40px;
     background:rgb(255, 255, 255);
-    font-family: Raleway;
 
   }
 
@@ -333,7 +322,6 @@ h5 {
     padding-bottom:30px;
     justify-content: center;
     text-align: center;
-    font-family: Raleway;
     font-size:30px;
     color: rgb(151, 7, 7);
 
@@ -426,14 +414,12 @@ h5 {
   text-align: center;
   font-weight: 500px;
   color:rgb(151, 7, 7);
-  font-family: Raleway;
 
 }
 
 .missionStatement p{
   font-size:20px;
   text-align: center;
-  font-family: Raleway;
 
 
 }
@@ -445,7 +431,6 @@ h5 {
 
 .container .otherStatement p{
   font-size:20px;
-  font-family: Raleway;
   padding-top:30px;
 
 }
@@ -462,7 +447,6 @@ h5 {
 .missionStatement2{
 font-size:20px;
 text-align: center;
-font-family: Raleway;
 padding-top:50px;
 padding-bottom:60px;
 
@@ -751,7 +735,7 @@ padding:10px;
   padding-bottom:4px;
   font-weight:700px;
   color:rgb(151, 7, 7);
-  font-family: Raleway;
+  font-family: lato;
 }
 
 
@@ -761,13 +745,12 @@ padding:10px;
 
 .howWeDo p{
  padding-top: 60px;
- font-family: Raleway;
 }
 
 .howWeDo .text{
   text-align: center;
   font-size:17px;
-  font-family: Raleway;
+  font-family: ;
   padding-bottom:40px;
   padding-bottom: 50px;
 
@@ -796,7 +779,7 @@ padding:10px;
   text-align: center;
   margin-top:50px;
   font-size:30px;
-  font-family: Raleway;
+  font-family: ;
   color: rgb(151, 7, 7)
 }
 
@@ -940,5 +923,4 @@ color:#eeeeee;
 
 
 #dexter .content p{
-  font-size: 22px;
 }
