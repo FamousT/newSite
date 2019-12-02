@@ -921,3 +921,24 @@ color:#ffffff;
 #footer ul.social li a:hover{
 color:#eeeeee;
 }
+
+
+
+#dexter{
+  padding-top:80px;
+  padding-bottom:50px;
+}
+
+#dexter img{
+  width:100%;
+}
+
+#dexter .content h2{
+  padding-top:90px;
+  color:rgb(151, 7, 7)
+}
+
+
+#dexter .content p{
+  font-size: 22px;
+}
